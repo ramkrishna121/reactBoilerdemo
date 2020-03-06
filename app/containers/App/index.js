@@ -26,7 +26,7 @@ export default function App() {
   return (
     <Divison>
       <Switch>
-        <Route exact path="/newAlternate" component={NewPage} />
+        <Route exact path="/newPage" component={NewPage} />
         <Route exact path="/" component={HomePage} />
 
         <Route component={NotFoundPage} />

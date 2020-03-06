@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 const Divison = styled.div`
   /* background-color : black; */
-  background-image: url('https://www.agernic.com/uploads/css-background-image-size-fit-full-screen.jpg');
+  background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
   background-size: cover;
 `;
 

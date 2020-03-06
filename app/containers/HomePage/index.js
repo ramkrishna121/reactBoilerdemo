@@ -18,7 +18,7 @@ import styled, { keyframes } from 'styled-components';
 const Artists = lazy(() => import('../../components/Artists/index'));
 
 const Division = styled.div`
-  background-image: linear-gradient(to bottom right, white, blue);
+  background-image: linear-gradient(to bottom right, green, black);
 `;
 
 export default function HomePage() {
@@ -26,7 +26,7 @@ export default function HomePage() {
     <Division>
       <h1>
         <FormattedMessage {...messages.header} /> <br />
-        <Link to="/newAlternate">Go to New Alternate Page</Link> <br />
+        <Link to="/newPage">Go to New Alternate Page</Link> <br />
         <Link>Go to other app</Link>
       </h1>
       <Suspense fallback={<h1>Still loading...</h1>}>

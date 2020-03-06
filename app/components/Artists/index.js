@@ -30,7 +30,7 @@ const Division = styled.div`
   padding: 10px;
   margin: 30px 30px;
   border: 5px solid rgb(93, 171, 207);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   background: lightblue;
   outline-style : dashed;
   outline-color : red;
